@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Дипломный проект</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<header>
+	    <form action="#" method="get" class="popUp__form">
+	    	<div class="form__header">
+	    		<h3>Оставьте свой номер, я&nbsp;Вам&nbsp;перезвоню</h3>
+	    		<button class="close"></button>
+	    	</div>
+			<div>	
+				<input id="form__name" type="text" name="name" maxlength="20" required="required" placeholder="Имя*">
+			</div>
+			<div>
+				<input id="form__tel" type="tel" name="tel"  maxlength="15" required="required" placeholder="Телефон*">
+			</div>
+			<div>
+				<input id="form__mail" type="email" maxlength="20" name="mail" placeholder="Ваш e-mail">
+			</div>
+			<div>
+				<textarea id="form__problem" name="tezis" placeholder="Что Вы хотели уточнить?"></textarea>
+			</div>
+			<div>
+				<button type="submit" class="orangе scroll_on">Заказать звонок</button>
+			</div>
+    		<div class="form__policy">
+				<span>  Нажимая на кнопку, вы даете согласие на обработку <a href="http://www.consultant.ru/document/cons_doc_LAW_61801/" target="_blank" class="policy__link">персональных данных</a></span>
+			</div>
+		</form>			
+		<div class="conteiner">
+			<div class="header__menu-fon">
+				<nav class="header__menu conteiner">
+					<div class="header__burger scroll_off">
+						<span></span>
+					</div>
+					<ul>
+						<li class="menu__ido">
+							<a href="#ido">Услуги</a>
+						</li>
+						<li class="menu__myworks">
+							<a href="#myworks">Портфолио</a>
+						</li>
+						<li class="menu__sentence">
+							<a href="#sentence">Стоимость</a>
+						</li>
+					</ul>
+					<div class="hader__contact">
+						<span>+7 (499) 995-55-77</span>
+						<button type="button" class="backcall scroll_off">Заказат звонок</button>
+					</div>
+				</nav>
+			</div>
+			<div class="header__fly">
+				<div class="header__fly symbol-braces"></div>
+				<div class="header__fly symbol-slash"></div>
+				<div class="header__fly symbol-sharp"></div>
+				<div class="header__fly symbol-div"></div>
+				<div class="header__fly symbol-div"></div>
+			</div>
+			<figure class="logo">
+				<div class="logo__creator">
+ 					<svg xmlns="http://www.w3.org/2000/svg" width="920" height="630" viewBox="0 0 920 630">
+						<defs>
+							<linearGradient id="gradient" x1="371.97" x2="548.51" y1="763.68" y2=".74" gradientUnits="userSpaceOnUse">
+									<stop offset="0" stop-color="#ff8f5a"/>
+								<stop offset=".99" stop-color="#ff2f96"/>
+							</linearGradient>
+						</defs>
+						<path fill="url(#gradient)" d="M395.52 40.407C502.261-10.05 602.994-10.204 687.212 27.67c84.435 37.567 152.356 113.165 198.491 207.114 44.27 94.884 44.223 196.799 8.068 279.242-36.656 83.673-97.666 146.755-180.805 191.777-44.03 22.669-90.312 38.198-149.148 47.731-58.06 9.394-128.676 12.79-203.493 7.944-148.474-9.32-314.876-53.081-349.967-151.79-19.887-49.012-7.404-105.197 17.32-161.739 25.13-56.624 62.503-113.604 101.74-166.115 39.645-52.593 81.155-100.717 123.891-141.53C296.45 99.41 340.817 65.828 395.52 40.408z"/>
+					</svg >
+					<img src="./img/header/creator.png" alt="Создатель сайта">
+				</div>
+				<figcaption class="logo__name">
+					<h1>Дмитрий Алексеев</h1>
+					<span>Frontend-разработчик 
+					и веб-верстальщик</span>
+					<button class="orangе scroll_off">Узнать больше</button>
+				</figcaption>
+			</figure>
+		</div>
+	</header>
+	<main>
+		<section id="ido" class="ido conteiner">
+			<div class="ido__title title"><h2>Что я делаю</h2></div>
+			<div class="ido_body">
+				<figure class="ido__column tools">
+					<div class="ido_column-icon">
+						<img src="./img/body/tools-and-utensils.png" alt="Стилизованное изображение работ по верстке">
+					</div>
+					<figcaption class="ido_column-text">
+						Вёрстка&nbsp;лендинг&nbsp;–&nbsp;страниц и&nbsp;сайтов любой&nbsp;сложности
+					</figcaption>
+				</figure>
+				<figure class="ido__column responsive">
+					<div class="ido_column-icon">
+						<img src="./img/body/responsive.png" alt="Стилизованное изображение устройств используемых для выхода в интернет">
+					</div>
+					<figcaption class="ido_column-text">
+						Адаптивная вёрстка&nbsp;под&nbsp;все браузеры и устройства
+					</figcaption>
+				</figure>
+				<figure class="ido__column programming">
+					<div class="ido_column-icon">
+						<img src="./img/body/programming.png" alt="Стилизованное изображение языка программирования">
+					</div>
+					<figcaption class="ido_column-text">
+						Frontend–разработка&nbsp;и программирование
+					</figcaption>
+				</figure>
+				<figure class="ido__column coding">
+					<div class="ido_column-icon ">
+						<img src="./img/body/coding.png" alt="Стилизованное изображение окна консоли  программирования">
+					</div>
+					<figcaption class="ido_column-text">
+						Исправление&nbsp;и&nbsp;доработка существующей вёрстки
+					</figcaption>
+				</figure>
+			</div>
+			<div>
+				<button class="ido__button orangе scroll_off">Узнать стоимость</button>
+			</div>
+		</section>
+		<div id="myworks" class="myworks">
+			<section class="conteiner">
+				<div class="myworks__title title">
+					<h2>Примеры моих работ</h2>
+				</div>
+				<div class="myworks__body">
+					<figure class="myworks__column">
+						<div class="myworks__column-scrin">
+							<img src="./img/body/Layer_2.png" alt="Отображение сайта психолога Веры Антоновой на экране монитора">
+						</div>
+						<figcaption class="myworks__column-text">
+							Сайт психолога Веры Антоновой
+						</figcaption>
+					</figure>
+					<figure class="myworks__column">
+						<div class="myworks__column-scrin">
+							<img src="./img/body/Layer_3.png" alt="Отображение сайта магазина  рыболов №2 на экране монитора">
+						</div>
+						<figcaption class="myworks__column-text">
+							Сайт магазина"Рыболов" №2
+						</figcaption>
+					</figure>
+					<figure class="myworks__column">
+						<div class="myworks__column-scrin">
+							<img src="./img/body/Layer_1.png" alt="Отображение сайта магазина детской одеждый на экране монитора">
+						</div>
+						<figcaption class="myworks__column-text">
+							Сайт магазина детской одеждый
+						</figcaption>
+					</figure>
+					<figure class="myworks__column">
+						<div class="myworks__column-scrin">
+							<img src="./img/body/Layer_3.png" alt="Отображение сайта магазина рыболов на экране монитора">
+						</div>
+						<figcaption class="myworks__column-text">
+							Сайт магазина "Рыболов"
+						</figcaption>
+					</figure>
+				</div>
+				<div>
+					<button class="myworks__button orangе scroll_off">Заказать проект</button>
+				</div>
+			</section>
+		</div>
+		<article class="sentence">
+			<div class="conteiner">
+				<div class="sentence__fly">
+					<div class="symbol-braces"></div>
+			    	<div class="symbol-div"></div>
+			    	<div class="symbol-sharp"></div>
+			    	<div class="symbol-slash"></div>
+			    	<div class="symbol-braces"></div>
+				</div>
+				<div id="sentence" class="sentence__title">
+					<h2>
+						Адаптивная вёрстка под все устройства и&nbsp;браузеры&nbsp;от&nbsp;1000&nbsp;рублей&nbsp;всего&nbsp;за&nbsp;4&nbsp;часа.&nbsp;*
+					</h2>
+				</div>
+				<div class="sentence__text">
+					* Срок и стоимость могут отличаться от заявленных&nbsp;и&nbsp;рассчитываются  индивидуально, в&nbsp;зависимости&nbsp;от&nbsp;сложности&nbsp;задач.
+				</div>
+			</div>
+		</article>
+	</main>
+	<footer>
+		<div class="conteiner">
+			<div class="footer__column">
+				<nav class="footer__menu menu">
+					<ul>
+						<li class="menu__ido">
+							<a href="#">Услуги</a>
+						</li>
+						<li class="menu__myworks">
+							<a href="#">Портфолио</a>
+						</li>
+						<li class="menu__sentence">
+							<a href="#">Стоимость</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<nav>
+				<ul class="footer__column mail">
+					<li>
+						<a href="#">
+							<span>
+								+7 (499) 995-55-77
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>
+								mitry@alekseev.com
+							</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="footer__column socseti">
+				<button class="backcall scroll_off">Заказать звонок</button>
+				<ul>
+					<li class="socseti-logo vk"><a href="#" aria-label="Переход на мою страницу в-контакте"></a></li>
+					<li class="socseti-logo facebook"><a href="#" aria-label="Переход на мою страницу facebook"></a></li>
+					<li class="socseti-logo twitte"><a href="#" aria-label="Переход на мою страницу twitte"></a></li>
+					<li class="socseti-logo instagram"><a href="#" aria-label="Переход на мою страницу instagram"></a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="copyright">
+			<span>&copy; Дмитрий Алексеев, 2016-2018</span>
+		</div>
+	</footer>
+	<script defer src="js/main.js"></script>
+</body>
+</html>
