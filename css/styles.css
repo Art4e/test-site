@@ -781,6 +781,7 @@ header svg {
 	position: relative;
 	width: 432px;
 	z-index: 190;
+	filter: drop-shadow(16px 16px 20px #3F4448);
 }
 
 .title h2 {
